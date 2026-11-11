@@ -1,0 +1,7 @@
+{
+  "workdir": "/ssddata/wilson_urop_YeAlWoYJ",
+  "scores_run": "results/feedback_mattr_5auv39l6",
+  "reference_eval_run": "results/feedback_mattr_eval_aqfckduy",
+  "fraction": 0.05,
+  "max_margin_error": 0.05
+}

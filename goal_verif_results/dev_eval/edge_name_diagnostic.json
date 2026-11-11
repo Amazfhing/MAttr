@@ -1,0 +1,5 @@
+{
+  "negative_index_edges": 813,
+  "unresolved_top20_coordinates": [],
+  "explanation": "Negative tensor indices are normalised before matching nonzero coordinates."
+}

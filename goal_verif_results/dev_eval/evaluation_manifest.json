@@ -1,0 +1,13 @@
+{
+  "source_run": "/ssddata/wilson_urop_YeAlWoYJ/results/feedback_mattr_5auv39l6",
+  "scores_sha256": "9dc92617eda4697908f5dda735847b476379472d8655c332b6e1d99a4d0d452a",
+  "adapter_sha256": "c1598b8a17308712849e297e0561529170ceff3e7b42065116f1b01b43eec412",
+  "attention_launcher_sha256": "1ed4bd2396e6407bf37dbe50ce865c109645dc5c1badc655c5302017e5f09f58",
+  "official_source_sha256": "042b354cbace9c509d339b975557fbb45821639ece50aa4870097f3971de2db1",
+  "repo_commit": "af82b2eef145dd3e66c793a413352d6931a152d7",
+  "dtype": "float32",
+  "random_seeds": [],
+  "training_calls": 0,
+  "backward_calls": 0,
+  "notes": "Original preparation loads train prompts only for the existing longest-prompt conversion check. Only dev.jsonl is circuit-evaluated; test data are never read."
+}

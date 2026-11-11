@@ -1,0 +1,22 @@
+{
+  "split": "test",
+  "pairs": 64,
+  "contexts": 128,
+  "data_version": "v2",
+  "orientations": [
+    "original",
+    "reversed"
+  ],
+  "dtype": "float32",
+  "candidate_mask_sha256": "18984364e868008d9b273266dccb60afe4d364907f2835e226b35e1489585afd",
+  "candidate_retained_edges": 46197,
+  "new_training_steps": 0,
+  "ranking_or_pruning_calls": 0,
+  "metric": "Pairwise A/B target-logit preference; ties count as incorrect",
+  "full_vocabulary_argmax_measured": false,
+  "correctness_filtering": false,
+  "unequal_length_policy": "Stop rather than filter or change intervention alignment",
+  "faithfulness": "Original mean of per-pair normalised margin ratios; exclude |denominator| <= 1e-6 and report counts",
+  "max_margin_error": 0.05,
+  "notes": "vv2 workload test evaluation. No mask or budget selection uses test outcomes. Dataset generator is imported only for read-only identity verification."
+}

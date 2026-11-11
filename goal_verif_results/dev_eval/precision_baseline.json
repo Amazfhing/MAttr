@@ -1,0 +1,27 @@
+{
+  "dtype": "float32",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "HF": {
+    "contexts": 128,
+    "pairwise_action_accuracy": 1.0,
+    "both_sides_correct_fraction": 1.0,
+    "per_action_accuracy": {
+      "FINISH": 1.0,
+      "REPAIR_EXPORT": 1.0
+    }
+  },
+  "TransformerLens": {
+    "contexts": 128,
+    "pairwise_action_accuracy": 1.0,
+    "both_sides_correct_fraction": 1.0,
+    "per_action_accuracy": {
+      "FINISH": 1.0,
+      "REPAIR_EXPORT": 1.0
+    }
+  },
+  "max_margin_error": 0.00014495849609375,
+  "strict_preference_reversals": 0,
+  "comparison_contexts": 130,
+  "note": "New execution baseline; do not substitute the earlier BF16 accuracy."
+}

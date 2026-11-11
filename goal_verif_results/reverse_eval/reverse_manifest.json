@@ -1,0 +1,15 @@
+{
+  "evaluation_kind": "fixed-mask input-pair reversal",
+  "source_run": "/ssddata/wilson_urop_YeAlWoYJ/results/feedback_mattr_5auv39l6",
+  "reference_evaluation": "/ssddata/wilson_urop_YeAlWoYJ/results/feedback_mattr_eval_aqfckduy",
+  "source_scores_sha256": "9dc92617eda4697908f5dda735847b476379472d8655c332b6e1d99a4d0d452a",
+  "adapter_sha256": "c1598b8a17308712849e297e0561529170ceff3e7b42065116f1b01b43eec412",
+  "evaluation_api_sha256": "61aa9b2bb58ecfd5c48760c868718e200278a9c1278c043f2d3e7dc1d9504983",
+  "reverse_launcher_sha256": "3e61f96d9c1f94ebb3dc46658863ce2dac22e1fc10f9f9c0c7a27b7a3fa4394b",
+  "attention_patch_sha256": "1ed4bd2396e6407bf37dbe50ce865c109645dc5c1badc655c5302017e5f09f58",
+  "repo_commit": "af82b2eef145dd3e66c793a413352d6931a152d7",
+  "training_calls": 0,
+  "backward_calls": 0,
+  "fraction": 0.05,
+  "notes": "Same retained edges in both orientations. Source/base inputs AND target-label ordering are exchanged. Test data are never loaded."
+}

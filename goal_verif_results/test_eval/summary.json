@@ -1,0 +1,72 @@
+{
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "dtype": "float32",
+  "split": "test",
+  "data_version": "v2",
+  "circuit_run": "/ssddata/wilson_urop_YeAlWoYJ/results/feedback_mattr_eval_y8j6vycq",
+  "new_training_steps": 0,
+  "ranking_or_pruning_calls": 0,
+  "test_pairs_evaluated": 64,
+  "total_scored_edges": 935747,
+  "retained_edges": 46197,
+  "fixed_mask_sha256": "18984364e868008d9b273266dccb60afe4d364907f2835e226b35e1489585afd",
+  "original_direction": {
+    "contexts": 64,
+    "circuit_correct": 35,
+    "full_model_correct": 58,
+    "IIA": 0.546875,
+    "full_model_base_IIA": 0.90625,
+    "agreement_with_full_non_ties": 0.640625,
+    "faithfulness_nonzero_denominators": 0.8053962519433021,
+    "faithfulness_defined_examples": 64,
+    "mean_circuit_margin": 6.55191296339035,
+    "mean_absolute_margin_error_vs_full": 17.865992844104767,
+    "zero_circuit_margins": 0,
+    "evaluation_pairs": 64
+  },
+  "reversed_direction": {
+    "contexts": 64,
+    "circuit_correct": 37,
+    "full_model_correct": 57,
+    "IIA": 0.578125,
+    "full_model_base_IIA": 0.890625,
+    "agreement_with_full_non_ties": 0.65625,
+    "faithfulness_nonzero_denominators": 0.8524575396832255,
+    "faithfulness_defined_examples": 64,
+    "mean_circuit_margin": 6.851150929927826,
+    "mean_absolute_margin_error_vs_full": 18.287483870983124,
+    "zero_circuit_margins": 0,
+    "evaluation_pairs": 64
+  },
+  "paired": {
+    "pairs": 64,
+    "circuit_both_sides_correct": 8,
+    "circuit_both_sides_accuracy": 0.125,
+    "full_model_both_sides_correct": 51,
+    "full_model_both_sides_accuracy": 0.796875
+  },
+  "combined_context_accuracy": 0.5625,
+  "full_model_combined_context_accuracy": 0.8984375,
+  "per_target_action": {
+    "answer": {
+      "contexts": 64,
+      "circuit_correct": 64,
+      "circuit_accuracy": 1.0,
+      "full_model_correct": 64,
+      "full_model_accuracy": 1.0
+    },
+    "retry": {
+      "contexts": 64,
+      "circuit_correct": 8,
+      "circuit_accuracy": 0.125,
+      "full_model_correct": 51,
+      "full_model_accuracy": 0.796875
+    }
+  },
+  "parity_max_margin_error": 0.00017547607421875,
+  "strict_preference_reversals": 0,
+  "endpoint_max_margin_error": 1.33514404296875e-05,
+  "status": "Held-out evaluation completed with unchanged development-selected mask",
+  "notes": "vv2 workload; both input orientations; no test-based selection or filtering. Only pairwise A/B logit preference is measured, not native tool execution or full-vocabulary generation accuracy. Saved mask loaded directly; compatible graph structure is rebuilt for hooks, but no scores are ranked and no circuit is re-pruned."
+}

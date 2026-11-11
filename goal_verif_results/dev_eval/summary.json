@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "dtype": "float32",
+  "source_run": "/ssddata/wilson_urop_YeAlWoYJ/results/feedback_mattr_5auv39l6",
+  "source_training_steps": 50,
+  "new_training_steps": 0,
+  "dev_pairs_evaluated": 32,
+  "total_scored_edges": 935747,
+  "full_model_base_IIA": 1.0,
+  "full_model_source_action_accuracy": 1.0,
+  "trial_summaries": [
+    {
+      "trial": "learned",
+      "random_seed": null,
+      "compactness": 0.5473260940435847
+    }
+  ],
+  "pilot_max_margin_error": 0.0,
+  "status": "All requested curve evaluations completed",
+  "edge_export_status": "complete",
+  "notes": "Base-side circuit evaluation only; same nominal pre-pruning budgets for learned and random rankings. Post-pruning edge counts are reported separately. Faithfulness is the original mean of per-example ratios, with near-zero denominators excluded. No test data or correctness filtering."
+}

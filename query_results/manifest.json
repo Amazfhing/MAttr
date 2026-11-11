@@ -1,0 +1,27 @@
+{
+  "circuit_run": "/ssddata/wilson_urop_YeAlWoYJ/results/feedback_mattr_eval_zuuubmhg",
+  "source_run": "/ssddata/wilson_urop_YeAlWoYJ/results/feedback_mattr_m2bl6pux",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "repo_commit": "af82b2eef145dd3e66c793a413352d6931a152d7",
+  "paths": {
+    "test_data": "/ssddata/wilson_urop_YeAlWoYJ/data/feedback_retry_answer_v1/test.jsonl",
+    "mask_file": "/ssddata/wilson_urop_YeAlWoYJ/results/feedback_mattr_eval_zuuubmhg/fixed_mask.pt",
+    "generator": "/ssddata/wilson_urop_YeAlWoYJ/code/feedback_pilot.py",
+    "adapter": "/ssddata/wilson_urop_YeAlWoYJ/code/run_feedback_mattr_fp32.py",
+    "attention_patch": "/ssddata/wilson_urop_YeAlWoYJ/code/run_feedback_mattr_lowmem.py",
+    "test_launcher": "/ssddata/wilson_urop_YeAlWoYJ/code/eval_feedback_mattr_test.py"
+  },
+  "sha256": {
+    "test_data": "fe55890f4dd4ca6bcea653a82ed993f552046173f7d3ea91bc868587c87875ad",
+    "mask_file": "c9c629bf8a3ab003e0a8f3342bbfc352df9c4f487a2d457bb2060715128423e8",
+    "generator": "eae5c48ee8e1238a1b2bd16e97f3fd6a7d95172e6f4f50b8392e92d5a01a15d5",
+    "adapter": "dc6fa42ac2dfec64fcc0deede38827429c55363295fd77a013dcaaa4f52c8beb",
+    "attention_patch": "1ed4bd2396e6407bf37dbe50ce865c109645dc5c1badc655c5302017e5f09f58",
+    "test_launcher": "18d9a592a6d2fb810b0c3b61b725ce23bb923596fa04c688469427d05a74e447"
+  },
+  "source_scores_sha256": "d7b71bfdd987f4e2d11b6343bfe2841a593fa46dd4c6fc218c1dea5c12ae800c",
+  "mask_sha256": "7cdb1cdf5e917a26f1c512c2a7745430d1503c7e39000f8e0d625571d59e9e96",
+  "torch_version": "2.12.0+cu130",
+  "official_source_sha256": "042b354cbace9c509d339b975557fbb45821639ece50aa4870097f3971de2db1"
+}

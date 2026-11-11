@@ -1,0 +1,65 @@
+{
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "dtype": "float32",
+  "source_run": "/ssddata/wilson_urop_YeAlWoYJ/results/feedback_mattr_5auv39l6",
+  "reference_evaluation": "/ssddata/wilson_urop_YeAlWoYJ/results/feedback_mattr_eval_aqfckduy",
+  "new_training_steps": 0,
+  "dev_pairs_evaluated": 32,
+  "nominal_fraction": 0.05,
+  "total_scored_edges": 935747,
+  "retained_edges": 46197,
+  "fixed_mask_sha256": "18984364e868008d9b273266dccb60afe4d364907f2835e226b35e1489585afd",
+  "original_direction": {
+    "contexts": 32,
+    "circuit_correct": 32,
+    "full_model_correct": 32,
+    "IIA": 1.0,
+    "full_model_base_IIA": 1.0,
+    "agreement_with_full_non_ties": 1.0,
+    "faithfulness_nonzero_denominators": 1.681046861096962,
+    "faithfulness_defined_examples": 32,
+    "mean_circuit_margin": 31.013167083263397,
+    "mean_absolute_margin_error_vs_full": 17.80666095018387,
+    "zero_circuit_margins": 0,
+    "evaluation_pairs": 32
+  },
+  "reversed_direction": {
+    "contexts": 32,
+    "circuit_correct": 32,
+    "full_model_correct": 32,
+    "IIA": 1.0,
+    "full_model_base_IIA": 1.0,
+    "agreement_with_full_non_ties": 1.0,
+    "faithfulness_nonzero_denominators": 1.7428933733627423,
+    "faithfulness_defined_examples": 32,
+    "mean_circuit_margin": 32.06693649291992,
+    "mean_absolute_margin_error_vs_full": 19.26707935333252,
+    "zero_circuit_margins": 0,
+    "evaluation_pairs": 32
+  },
+  "paired": {
+    "pairs": 32,
+    "circuit_both_sides_correct": 32,
+    "circuit_both_sides_accuracy": 1.0,
+    "full_model_both_sides_correct": 32,
+    "full_model_both_sides_accuracy": 1.0
+  },
+  "combined_context_accuracy": 1.0,
+  "per_target_action": {
+    "FINISH": {
+      "contexts": 32,
+      "correct": 32,
+      "accuracy": 1.0
+    },
+    "REPAIR_EXPORT": {
+      "contexts": 32,
+      "correct": 32,
+      "accuracy": 1.0
+    }
+  },
+  "original_reproduction_max_margin_error": 0.0,
+  "reversed_endpoint_max_margin_error": 5.7220458984375e-06,
+  "status": "Both orientations evaluated with the same frozen mask",
+  "notes": "All development pairs included, including full-model errors. This reverses input/label roles, not the kept-edge mask; it is not top-k noising and is not a held-out test evaluation."
+}

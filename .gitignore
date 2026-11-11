@@ -1,0 +1,41 @@
+# Claude Code configuration
+.claude/
+
+# Archived files
+archive/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+ENV/
+
+# PyTorch
+*.pt
+*.pth
+*.ckpt
+
+# Logs
+logs/
+*.log
+
+# Results
+results/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

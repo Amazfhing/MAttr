@@ -1,0 +1,20 @@
+{
+  "workdir": "/ssddata/wilson_urop_YeAlWoYJ",
+  "baseline_dir": "results/baseline_dev_v2_manual",
+  "repo": null,
+  "steps": 50,
+  "eval_limit": 32,
+  "seed": 42,
+  "lr": 0.05,
+  "T": 0.5,
+  "n_iters": 30,
+  "cf_cache_gb": 0.0,
+  "max_margin_error": 0.05,
+  "dtype": "float32",
+  "conversion_only": false,
+  "max_decision_disagreements": 0,
+  "preflight_only": false,
+  "data_version": "v2",
+  "data_name": "export_goal_verification",
+  "skip_count_check": false
+}

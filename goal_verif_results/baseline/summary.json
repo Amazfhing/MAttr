@@ -1,0 +1,29 @@
+{
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "device": "cuda",
+  "dtype": "bfloat16",
+  "split": "dev",
+  "version": "v2",
+  "data_name": "export_goal_verification",
+  "total_pairs": 64,
+  "pairwise_accuracy": 1.0,
+  "label_ids": {
+    "A": 32,
+    "B": 33
+  },
+  "snapshot": "/home/urop2026/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28",
+  "action_accuracy": {
+    "FINISH": {
+      "correct": 64,
+      "total": 64,
+      "accuracy": 1.0
+    },
+    "REPAIR_EXPORT": {
+      "correct": 64,
+      "total": 64,
+      "accuracy": 1.0
+    }
+  },
+  "resolved_revision": "a09a35458c702b33eeacc393d103063234e8bc28"
+}

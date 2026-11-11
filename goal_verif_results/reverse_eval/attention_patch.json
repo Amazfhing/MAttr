@@ -1,0 +1,9 @@
+{
+  "attention_class": "transformer_lens.components.abstract_attention.AbstractAttention",
+  "installed_source": "/ssddata/wilson_urop_YeAlWoYJ/code/matryoshka-attribution/.venv/lib/python3.12/site-packages/transformer_lens/components/abstract_attention.py",
+  "original_forward_sha256": "c2fe0e6fd94a4657c8a02efc5edb8e33d32561834a662df4ae898d81bd3f42fb",
+  "replacement": "(z*w).sum(-2) -> einsum('bphd,hdm->bphm', z.squeeze(-1), w[0,0])",
+  "scope": "Current Python process only; no installed files edited.",
+  "torch_version": "2.12.0+cu130",
+  "validation": "Tiny CPU float64 output and gradient checks passed; full-model checks remain enabled."
+}
