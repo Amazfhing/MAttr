@@ -1,14 +1,15 @@
 {
   "split": "test",
-  "pairs": 32,
-  "contexts": 64,
+  "pairs": 64,
+  "contexts": 128,
+  "data_version": "v2",
   "orientations": [
     "original",
     "reversed"
   ],
   "dtype": "float32",
-  "candidate_mask_sha256": "7cdb1cdf5e917a26f1c512c2a7745430d1503c7e39000f8e0d625571d59e9e96",
-  "candidate_retained_edges": 91354,
+  "candidate_mask_sha256": "34a1a93fae014531b14a5285249ee0d278bcc73f7703d230014591ce494e96a5",
+  "candidate_retained_edges": 91932,
   "new_training_steps": 0,
   "ranking_or_pruning_calls": 0,
   "metric": "Pairwise A/B target-logit preference; ties count as incorrect",
@@ -17,5 +18,5 @@
   "unequal_length_policy": "Stop rather than filter or change intervention alignment",
   "faithfulness": "Original mean of per-pair normalised margin ratios; exclude |denominator| <= 1e-6 and report counts",
   "max_margin_error": 0.05,
-  "notes": "No mask or budget selection uses test outcomes. Dataset generator is imported only for read-only identity verification; its main and baseline functions are never called."
+  "notes": "vv2 workload test evaluation. No mask or budget selection uses test outcomes. Dataset generator is imported only for read-only identity verification."
 }
